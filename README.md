@@ -1,6 +1,16 @@
 # Exchain
+## A blockchain + smart contract implementation in Elixir
 
-**TODO: Add description**
+## Tentative Roadmap
+
+- [ ] Blockchain data structure
+    - [ ] Block: Merkle tree root, hash, nonce, timestamp
+    - [ ] Transaction
+- [ ] Functions for manipulating the blockchain
+- [ ] Read/write blocks and transactions from/to disk
+- [ ] Practical Byzantine Fault Tolerance (PBFT) consensus algorithm
+- [ ] Sync blockchain and transactions data across network
+- [ ] Command-line tools
 
 ## Installation
 
