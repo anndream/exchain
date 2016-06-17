@@ -36,4 +36,18 @@ defmodule Exchain.Block do
     data: []
   ]
 
+  def nonce do
+    :crypto.strong_rand_bytes(256)
+  end
+
+  def timestamp do
+    System.system_time
+  end
+
+  def hash(%Exchain.Block{} = block) do
+  end
+
+  def merkle_root([ %Exchain.Transaction{} ] = data) do
+  end
+
 end
